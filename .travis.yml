@@ -1,4 +1,5 @@
 language: python
-script: 
+script:
+  - echo "$EXAMPLE_01"
   - echo "$EXAMPLE_01" > example_01.xml
   - diff example_01.xml example_01.expected.xml
