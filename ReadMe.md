@@ -14,7 +14,7 @@ Expected content
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?><root>
-    <Example id"hello">
+    <Example id="hello">
         <Test />
     </Example>
 </root>
@@ -23,13 +23,13 @@ Expected content
 The above content with endlines replaced:
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?><root>\n    <Example id"hello">\n        <Test />\n    </Example>\n</root>
+<?xml version="1.0" encoding="UTF-8"?><root>\n    <Example id="hello">\n        <Test />\n    </Example>\n</root>
 ```
 
 What we actually need to add in Travis environment variables settings:
 
 ```xml
-"$(echo -e '<?xml version="1.0" encoding="UTF-8"?><root>\n    <Example id"hello">\n        <Test />\n    </Example>\n</root>')"
+"$(echo -e '<?xml version="1.0" encoding="UTF-8"?><root>\n    <Example id="hello">\n        <Test />\n    </Example>\n</root>')"
 ```
 
 :white_check_mark: [Confirmed working here](https://travis-ci.com/GabLeRoux/travis-multiline-env-example)
