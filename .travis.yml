@@ -1,0 +1,4 @@
+language: python
+script: 
+  - echo $EXAMPLE_01
+  - echo "$EXAMPLE_02" > example_02.txt && cat example_02.txt
