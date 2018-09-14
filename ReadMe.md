@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/GabLeRoux/travis-multiline-env-example.svg?branch=master)](https://travis-ci.com/GabLeRoux/travis-multiline-env-example)
 
-I needed to generate a file based on an environment variable which contains a multiple lines. Note: `gitlab-ci` does support this out of the boxs. I just needed to do the same with Travis.
+I needed to generate a file based on an environment variable which contains multiple lines. Note: `gitlab-ci` does support this out of the boxs. I just needed to do the same with Travis. :v:
 
 ## The solution
 
